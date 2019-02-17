@@ -1,0 +1,73 @@
+/* pages/video/video.wxss */
+
+.nav {
+  white-space: nowrap;
+  padding: 5rpx 0;
+}
+
+.nav-item {
+  padding: 20rpx 45rpx;
+  font-size: 30rpx;
+  display: inline-block;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid #de688b;
+}
+
+.slides {
+  margin-top: 10rpx;
+}
+
+.slides swiper {
+  height: 220rpx;
+}
+
+.slides navigator {
+  width: 100%;
+  height: 100%;
+}
+
+.slides image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 视频列表 */
+
+.video-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rpx;
+  justify-content: center;
+  margin-top: 15rpx;
+}
+
+.video-item {
+  width: 48%;
+}
+
+.video-img {
+  position: relative;
+  margin-left: 15rpx;
+}
+
+.video-img image {
+  width: 100%;
+  border-radius: 15rpx;
+}
+
+.video-info {
+  position: absolute;
+  left: 0;
+  bottom: 10rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 24rpx;
+}
+
+.video-title{
+  font-size: 28rpx;
+}

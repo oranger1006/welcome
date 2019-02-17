@@ -1,0 +1,11 @@
+<view class='container'>
+  <image class='user-avatar' src='../../images/avatar/cat.jpg'></image>
+  <text class='user-name'>hello,菜籽油</text>
+  <navigator class='moto-container' url='../posts/posts' open-type="switchTab">
+    <text class='moto'>开启小程序之旅</text>
+  </navigator>
+</view>
+
+<!-- <view class="moto-container" bindtap="onTap">
+    <text class='moto'>开启小程序之旅</text>
+</view> -->
